@@ -7,6 +7,13 @@ To run locally, use an http server. Python has one:
 ```sh
 $ python -m SimpleHTTPServer
 ```
+
+Python3:
+
+```sh
+$ python3 -m http.server
+```
+
 ## Problem definition
 
 This demo assumes the following problem to solve:
