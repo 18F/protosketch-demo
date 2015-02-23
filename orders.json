@@ -1,0 +1,6 @@
+[
+  {"id": 1, "date": "01/12/2015", "cost": "$15.54", "description": "Animal crackers and jelly beans"},
+  {"id": 2, "date": "12/01/2014", "cost": "$12.34", "description": "Popcorn"},
+  {"id": 3, "date": "11/01/2014", "cost": "$27.46", "description": "Pretzels, chips, and gummy bears"},
+  {"id": 4, "date": "10/01/2014", "cost": "$15.20", "description": "Animal crackers and jelly beans"}
+]

@@ -1,8 +1,3 @@
-var data = [
-  {id: 1, name: "Alan"},
-  {id: 2, name: "Rob"}
-];
-
 // inspired by: http://jsfiddle.net/mjaric/sEwM6/
 var drawRow = function(rowData, div) {
   var row = $("<tr />")
@@ -29,7 +24,9 @@ var drawTable = function(data, div) {
   }
 };
 
-
 $(document).ready(function() {
-  drawTable(data, "#current_order");
+  $.getJSON("orders.json", function(data) {
+    console.log(data);
+    drawTable(data, "#current_order");
+  });
 });
